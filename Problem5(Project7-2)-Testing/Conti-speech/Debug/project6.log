@@ -1,0 +1,22 @@
+﻿Build started 2016/11/2 11:48:20.
+     1>Project "D:\visual_studio_workspace_C++\project\project6\project6\project6.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         F:\software_exe_study\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt continuousRecogonition.cpp
+         continuousRecogonition.cpp
+     1>d:\visual_studio_workspace_c++\project\project6\project6\continuousrecogonition.h(3): warning C4005: '_CRT_SECURE_NO_WARNINGS' : macro redefinition
+                 command-line arguments :  see previous definition of '_CRT_SECURE_NO_WARNINGS'
+     1>d:\visual_studio_workspace_c++\project\project6\project6\continuousrecogonition.cpp(48): warning C4101: 'sampleRate' : unreferenced local variable
+     1>d:\visual_studio_workspace_c++\project\project6\project6\continuousrecogonition.cpp(48): warning C4101: 'numSamples' : unreferenced local variable
+     1>d:\visual_studio_workspace_c++\project\project6\project6\continuousrecogonition.cpp(267): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         F:\software_exe_study\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\visual_studio_workspace_C++\project\project6\Debug\project6.exe" /INCREMENTAL /NOLOGO "D:\visual_studio_workspace_C++\project\project6\project6\fftw3\libfftw3-3.lib" "D:\visual_studio_workspace_C++\project\project6\project6\fftw3\libfftw3f-3.lib" "D:\visual_studio_workspace_C++\project\project6\project6\fftw3\libfftw3l-3.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\visual_studio_workspace_C++\project\project6\Debug\project6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\visual_studio_workspace_C++\project\project6\Debug\project6.lib" /MACHINE:X86 Debug\continuousRecogonition.obj
+         Debug\main.obj
+         Debug\mfcc.obj
+         Debug\readTest.obj
+         Debug\readwave.obj
+         project6.vcxproj -> D:\visual_studio_workspace_C++\project\project6\Debug\project6.exe
+     1>Done Building Project "D:\visual_studio_workspace_C++\project\project6\project6\project6.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.10

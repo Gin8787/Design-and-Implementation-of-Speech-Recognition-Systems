@@ -1,0 +1,35 @@
+﻿生成启动时间为 2016/11/16 10:30:41。
+     1>项目“D:\Documents\Visual Studio 2010\Projects\benchmark-testing\Conti-speech\Conti-speech.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\Conti-speech.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         L:\Visual Studio 2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt continuousRecogonitionloop.cpp
+         continuousRecogonitionloop.cpp
+     1>d:\documents\visual studio 2010\projects\benchmark-testing\conti-speech\continuousrecogonitionloop.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\documents\visual studio 2010\projects\benchmark-testing\conti-speech\continuousrecogonitionloop.cpp(56): warning C4101: “sampleRate”: 未引用的局部变量
+     1>d:\documents\visual studio 2010\projects\benchmark-testing\conti-speech\continuousrecogonitionloop.cpp(56): warning C4101: “numSamples”: 未引用的局部变量
+     1>d:\documents\visual studio 2010\projects\benchmark-testing\conti-speech\continuousrecogonitionloop.cpp(511): warning C4101: “phoneLen”: 未引用的局部变量
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         L:\Visual Studio 2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Documents\Visual Studio 2010\Projects\benchmark-testing\Debug\Conti-speech.exe" /INCREMENTAL /NOLOGO "fftw3\libfftw3-3.lib" "fftw3\libfftw3l-3.lib" "fftw3\libfftw3f-3.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Conti-speech.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Documents\Visual Studio 2010\Projects\benchmark-testing\Debug\Conti-speech.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Documents\Visual Studio 2010\Projects\benchmark-testing\Debug\Conti-speech.lib" /MACHINE:X86 "Debug\Conti-speech.exe.embed.manifest.res"
+         Debug\continuousRecogonitionloop.obj
+         Debug\endPointing.obj
+         Debug\main.obj
+         Debug\mfcc.obj
+         Debug\readTest.obj
+         Debug\readwave.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Conti-speech.exe.embed.manifest" /manifest "Debug\Conti-speech.exe.intermediate.manifest"
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         Conti-speech.vcxproj -> D:\Documents\Visual Studio 2010\Projects\benchmark-testing\Debug\Conti-speech.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\Conti-speech.unsuccessfulbuild”。
+         正在对“Debug\Conti-speech.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\Documents\Visual Studio 2010\Projects\benchmark-testing\Conti-speech\Conti-speech.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.98

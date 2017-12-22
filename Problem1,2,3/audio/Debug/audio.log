@@ -1,0 +1,19 @@
+﻿生成启动时间为 2016/11/17 8:27:26。
+     1>项目“D:\Documents\Visual Studio 2010\Projects\audiomatchfixed\audio\audio.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\audio.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         L:\Visual Studio 2010\VC\bin\CL.exe /c /ID:\portaudio\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt record.cpp
+         record.cpp
+       Link:
+         L:\Visual Studio 2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Documents\Visual Studio 2010\Projects\audiomatchfixed\Debug\audio.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Aquila\lib" "libfftw3l-3.lib" "libfftw3f-3.lib" "libfftw3-3.lib" portaudio_x86.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /DEBUG /PDB:"D:\Documents\Visual Studio 2010\Projects\audiomatchfixed\Debug\audio.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Documents\Visual Studio 2010\Projects\audiomatchfixed\Debug\audio.lib" /MACHINE:X86 Debug\continuousRecogonition.obj
+         Debug\FixedDigitRecognition.obj
+         Debug\mfcc.obj
+         Debug\readwave.obj
+         Debug\record.obj
+     1>LINK : fatal error LNK1104: 无法打开文件“libfftw3l-3.lib”
+     1>已完成生成项目“D:\Documents\Visual Studio 2010\Projects\audiomatchfixed\audio\audio.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.55
